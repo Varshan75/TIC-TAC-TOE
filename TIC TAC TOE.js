@@ -34,7 +34,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.js";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
             }
         else if((a1.innerText == "O" && a2.innerText == "O" && a3.innerText == "O")){        
             result.innerText = `${player2} conquered the match with grandeur`;
@@ -47,7 +47,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
             }
     }
     else if((a1.innerText == "X" && a4.innerText == "X" && a7.innerText == "X")|| (a1.innerText == "O" && a4.innerText == "O" && a7.innerText == "O") ){
@@ -69,7 +69,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
             }
         else{
             result.innerText = `${player2} conquered the match with grandeur`;
@@ -82,7 +82,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
             }
     }
     else if((a4.innerText == "X" && a5.innerText == "X" && a6.innerText == "X")|| (a4.innerText == "O" && a5.innerText == "O" && a6.innerText == "O") ){
@@ -104,7 +104,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
             }
         else{
             result.innerText = `${player2} conquered the match with grandeur`;
@@ -117,7 +117,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
             }
     }
     else if((a7.innerText == "X" && a8.innerText == "X" && a9.innerText == "X")|| (a7.innerText == "O" && a8.innerText == "O" && a9.innerText == "O") ){
@@ -139,7 +139,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
 
         }
         else{
@@ -153,7 +153,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
         }
 
     }
@@ -176,7 +176,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
         }
         else{
             result.innerText = `${player2} conquered the match with grandeur`;
@@ -189,7 +189,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
             }
     }
     else if((a1.innerText == "X" && a5.innerText == "X" && a9.innerText == "X")|| (a1.innerText == "O" && a5.innerText == "O" && a9.innerText == "O") ){
@@ -211,7 +211,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
             }
         else{
             result.innerText = `${player2} conquered the match with grandeur`;    
@@ -224,7 +224,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
             }
     }
     else if((a2.innerText == "X" && a5.innerText == "X" && a8.innerText == "X")|| (a2.innerText == "O" && a5.innerText == "O" && a8.innerText == "O") ){
@@ -246,7 +246,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
         }
         else{
             result.innerText = `${player2} conquered the match with grandeur`;
@@ -259,7 +259,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
         }
     }
     else if((a3.innerText == "X" && a5.innerText == "X" && a7.innerText == "X")|| (a3.innerText == "O" && a5.innerText == "O" && a7.innerText == "O") ){
@@ -281,7 +281,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
         }
         else{
             result.innerText = `${player2} conquered the match with grandeur`;
@@ -294,7 +294,7 @@ function check(){
             newgame.className = "ng";
             again.className = "ag";
             again.href = "TIC TAC TOE.html";
-            newgame.href = "TTT home page.html";
+            newgame.href = "index.html";
         }
     }
     else if(count == 9){
@@ -309,7 +309,7 @@ function check(){
         newgame.className = "ng";
         again.className = "ag";
         again.href = "TIC TAC TOE.html";
-        newgame.href = "TTT home page.html"; 
+        newgame.href = "index.html"; 
     }
 }
 function change1(){
