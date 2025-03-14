@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(228, 181, 62);
+}
+h1{
+    font-weight: bolder;
+    color: grey;
+    font-family: Showcard Gothic;
+    font-size: 70px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+div{
+    display: flex;;
+    justify-content: center;
+}
+a{
+    border: 3px grey solid;
+    background-color:rgb(58, 55, 55);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: xx-large;
+    font-family: ALGERIAN;
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 3px 15px 3px grey;
+    letter-spacing: 3PX;
+    line-break: 5px;
+}
+a:hover{
+    background-color: rgb(27, 26, 26);
+}
+#ovo{
+    padding: 40px 110px;
+    margin: 25px;
+}
+#ovc{
+    padding: 40px 60px;
+    margin: 25px;
+}

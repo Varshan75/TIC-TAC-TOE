@@ -1,0 +1,30 @@
+h1{
+    font-family:Showcard Gothic;
+    color: rgb(77, 74, 74);
+}
+body{
+    padding:150px ;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(228, 181, 62);
+    
+}
+button{
+    margin-top:25px ;
+
+    background: linear-gradient(45deg, #a17839 50%, #f5f5f5 50%);
+    background-size: 190% 100%;
+    color: #fff;
+    border: none;
+    font-family: algerian;
+    font-size:large;
+    letter-spacing: 5px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    transition: background-position 0.5s;
+}      
+button:hover {
+    background-position: 100%;
+    color: rgb(46, 43, 43);
+    font-weight: bold;
+}      

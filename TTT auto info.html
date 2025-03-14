@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>INFO OF PLAYERS</title>
+    <link rel="stylesheet" href="TTT info.css">
+</head>
+<body>
+    <h1>TIC TAC TOE</h1>
+   <center>
+    <div>
+        <table>
+            <tr>
+                <th>PLAYER 1  </th>
+                <th>PLAYER 2 </th>
+            </tr>
+            <tr>
+                <th>Name of Player 1</th>
+                <th>Name of Player 2</th>
+            </tr>
+            <tr>
+                <td ><input type="text" id="player1" placeholder="ENTER YOUR NAME" ></td>
+                <td ><input type="text" id="player2" value="COMPUTER" placeholder="ENTER YOUR NAME" readonly></td>
+            </tr>
+            <tr>
+                <th colspan="2"><a href="TTT auto.html" onclick="merge()">START</a></th>
+            </tr>
+        </table>
+    </div>
+   </center>
+   <script>
+        const playero = document.getElementById("player1");
+        function merge(){
+            let player1 = playero.value;
+            localStorage.setItem('player1',player1);
+            window.location.href = "TTT auto.html";
+        }
+   </script>
+</body>
+</html>

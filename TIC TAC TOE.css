@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(228, 181, 62);
+}
+td{
+    padding: 30px;
+    border-radius:5px;
+}
+table{
+    border: solid;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: rgb(41, 40, 40) ;
+    border-spacing: 6px;
+    box-shadow: 4px 4px 10px 4px rgb(78, 78, 78);
+
+}
+button:disabled{
+    color: grey;
+}
+td{
+    border: 5px solid grey;
+    
+}
+button{
+    border: none;
+    font-size: 50px;
+    background-color:transparent;
+    padding: 20px 40px 10px 30px;
+    cursor: pointer;
+    font-family: algerian;
+
+}
+h1{
+    font-weight: bolder;
+    color: grey;
+    font-family: Showcard Gothic;
+    font-size: 70px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+.rc{
+    padding: 5px ;
+    margin: 80px 150px;
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-family: ALGERIAN;
+    box-shadow: 3px 3px 3px 3px rgb(133, 238, 180);
+    background-color: rgb(28, 134, 85);
+    color: white;
+    border: 5px solid rgb(16, 133, 45);
+    border-radius: 10px;
+
+}
+.draw{
+    padding: 5px ;
+    margin: 80px 150px;
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-family: ALGERIAN;
+    box-shadow: 3px 3px 3px 3px rgb(241, 110, 110);
+    background-color: rgb(241, 52, 52);
+    color: white;
+    border: 5px solid rgb(250, 121, 121);
+    border-radius: 10px;
+
+}
+#buttons{
+    display: flex;
+    justify-content: end;
+}
+.ng{
+    padding:15px 50px ;
+    font-family: CURSIVE;
+    font-weight:800;
+    border-radius: 8px;
+    border: 50px  solid;
+    font-size: xx-large;
+    color:  rgb(24, 88, 80);
+    background-color: rgb(97, 218, 171);
+    border: 3px solid rgb(15, 94, 83);
+    text-decoration: none;
+    margin: 5px;
+
+
+}
+.ag{
+    padding:15px 50px ;
+    font-family: CURSIVE;
+    margin: 5px;
+    font-weight:800;
+    border-radius: 8px;
+    border: 5px solid;
+    font-size: xx-large;
+    color:  rgb(24, 88, 80);
+    background-color: rgb(97, 218, 171);
+    border: 3px solid rgb(15, 94, 83);
+    text-decoration: none;
+    
+
+
+}
+.ng:hover{
+  
+    color:  rgb(55, 150, 137);
+    color: white;
+    background-color: rgb(46, 151, 128);
+    font-weight: 800;
+}
+.ag:hover{
+  
+    color:  rgb(55, 150, 137);
+    color: white;
+    background-color: rgb(46, 151, 128);
+    font-weight: 800;
+}
